@@ -1,0 +1,36 @@
+{
+  "best_model": "gradient_boosting",
+  "test_metrics": {
+    "r2": 0.6731672623298457,
+    "mae": 948076.9647437166,
+    "rmse": 1285301.1442319104
+  },
+  "all_models": {
+    "ridge": {
+      "r2": 0.6520202419688197,
+      "mae": 971713.7283234703,
+      "rmse": 1326230.7986470014
+    },
+    "gradient_boosting": {
+      "r2": 0.6731672623298457,
+      "mae": 948076.9647437166,
+      "rmse": 1285301.1442319104
+    }
+  },
+  "n_train": 436,
+  "n_test": 109,
+  "features": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "stories",
+    "parking",
+    "mainroad",
+    "guestroom",
+    "basement",
+    "hotwaterheating",
+    "airconditioning",
+    "prefarea",
+    "furnishingstatus"
+  ]
+}
